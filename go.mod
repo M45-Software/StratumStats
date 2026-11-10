@@ -1,3 +1,3 @@
 module github.com/M45Core/StratumStats
 
-go 1.25.12
+go 1.27.3
