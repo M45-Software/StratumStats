@@ -65,7 +65,7 @@ trap 'rm -rf "$temporary_dir"' EXIT
 
 if [[ -z "$binary" ]]; then
   if ! command -v go >/dev/null 2>&1; then
-    echo "Go 1.25.12 or newer is required when --binary is not supplied." >&2
+    echo "Go 1.27.3 or newer is required when --binary is not supplied." >&2
     exit 1
   fi
   binary="$temporary_dir/stratumstats"

@@ -26,7 +26,7 @@ measurements.
 
 ## Quick start
 
-Requires Go 1.25.12 or newer and has no third-party Go dependencies.
+Requires Go 1.27.3 or newer and has no third-party Go dependencies.
 
 ```bash
 # Start a synthetic dashboard at http://localhost:8080.
